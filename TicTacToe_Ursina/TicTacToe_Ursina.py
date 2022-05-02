@@ -15,7 +15,6 @@ def CameraMovement():
     if held_keys["a"]:
         camera.position -= (time.dt, 0, 0)
 
-
 # Name: update
 # Purpose: Ursina's update function
 # Arguments: None
